@@ -37,13 +37,13 @@ header >.navbar{
     position: fixed;
     width: 100%;
     padding-bottom: 20px;
+    
 }
 .snd_nav>li>a{
     font-size: large;
     text-transform: uppercase;
     padding: 5px;
 }
-.nav-link:hover,
 .snd_nav>.nav-item>.link2:hover{
     
     text-transform: uppercase;

@@ -1,21 +1,16 @@
-$('#recipeCarousel').carousel({
-    interval: 10000
-})
+// nav scroll color change 
 
-$('.carousel .carousel-item').each(function() {
-    var minPerSlide = 3;
-    var next = $(this).next();
-    if (!next.length) {
-        next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
+$(document).ready(function () {
+    var scroll_pos = 0;
+    $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 80) {
+            $(".sticky-top a").css("color", "white");
+            $(".sticky-top").css('background-color', 'black');
 
-    for (var i = 0; i < minPerSlide; i++) {
-        next = next.next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
+
+        } else {
+            $(".sticky-top").css('background-color', 'transparent');
         }
-
-        next.children(':first-child').clone().appendTo($(this));
-    }
+    });
 });
