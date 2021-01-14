@@ -5,17 +5,17 @@ body {
   font-family: Muli, sans-serif;
 }
 /* fixed div */
- div.fixed_bottom {
+div.fixed_bottom {
   position: fixed;
   width: 20%;
   bottom: 10px;
   right: 10px;
   /* height: 20%; */
- 
+
   background-color: #4d7aa8;
   color: #c6a476;
   padding: 10px;
-} 
+}
 
 .carousel-indicators > li {
   border-radius: 50%;
@@ -38,7 +38,6 @@ body {
   margin-right: 5%;
   align-self: auto;
 }
-
 
 .snd_div_img {
   width: 170px;
@@ -824,7 +823,8 @@ p.placement_small {
   margin: 0 auto 15px auto;
 }
 
-#testimonials .owl-nav, #testimonials .owl-dots {
+#testimonials .owl-nav,
+#testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -839,5 +839,50 @@ p.placement_small {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #374871;
+}
+
+/*student testimonial*/
+#testimonials {
+  padding: 0 0 80px;
+  position: relative;
+}
+.testimonials-section {
+  padding: 80px 0;
+  text-align: center;
+}
+.intership_placement h3,
+.placement_content h3,
+section.bg_placement_logo h3,
+section.testimonials-section.corporate h3 {
+  font-weight: 800;
+  font-size: 30px;
+}
+.testimonial-tab {
+  width: 100%;
+}
+
+.testimonial-tab ul#tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin-bottom: 42px;
+}
+.testimonial-tab ul#tabs li.nav-item {
+  padding: 0 15px;
+}
+.testimonials-section .nav-tabs .nav-item.show .nav-link,
+.testimonials-section .nav-tabs .nav-link.active {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  border-bottom: 1px solid #e78032 !important;
+  font-weight: 700;
+}
+
+.testimonials-section .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: #e9ecef00 #e9ecef00 #e8a790;
+  color: #000;
 }
