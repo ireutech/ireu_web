@@ -1,0 +1,74 @@
+.main_about {
+  padding: 0;
+  position: relative;
+  margin-top: 200px;
+}
+.media-heading {
+  font-weight: 800;
+  font-size: 30px;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.school-list .col-sm-12:nth-child(even) .school-block-1 {
+  right: 37px;
+  left: inherit;
+}
+.school-list .col-sm-12:nth-child(2) .bg-1 {
+  right: 41px;
+  left: inherit;
+  background: #7f9ac0;
+}
+.school-list .col-sm-12:nth-child(3) .bg-1 {
+  background: #7e2a26;
+}
+.school-list .col-sm-12:nth-child(4) .bg-1 {
+  right: 43px;
+  left: inherit;
+  background: #545f7b;
+}
+.school-list .col-sm-12 {
+  margin-bottom: 120px;
+}
+.bg-1 {
+  background: #dab36a;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 25px;
+  left: 44px;
+  z-index: -1;
+}
+.school-block-1 {
+  box-shadow: 1px 0 8px rgba(160, 160, 160, 0.22);
+  padding: 60px 83px;
+  position: relative;
+  z-index: 9;
+  left: 39px;
+  background: #fff;
+  width: 100%;
+  top: 35px;
+}
+.school-block-1 h2 {
+  font-size: 42px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+.school-block-1 .read-more {
+  margin-top: 15px;
+  display: inline-block;
+}
+.read-more a {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-indent: -9999px;
+  background: #efe5e3 url(../img/symbols/icon-sprite.png) no-repeat;
+  background-position: 0 -319px;
+  border-radius: 50%;
+}
+.read-more a:hover {
+  background: #731013 url(../img/symbols/icon-sprite.png) no-repeat;
+  background-position: 0 -257px;
+  border-radius: 50%;
+}
