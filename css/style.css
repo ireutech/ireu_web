@@ -7,8 +7,8 @@ body {
 /* fixed div */
 
 .enquiry-box {
-  background: #781915;
-  width: 25%;
+  background: #4d7aa8;
+  width: 336px;
   position: fixed;
   right: 5px;
   bottom: 0;
@@ -16,7 +16,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .enquiry-box {
-    background: #781915;
+    background: #374871;
     width: 100%;
     position: fixed;
     right: 5px;
@@ -26,13 +26,13 @@ body {
   }
 }
 .enquiry-top {
-  background: #781915;
+  background: #4d7aa8;
   padding: 21px 22px;
 }
 .enquiry-bottom {
-  background: #5f120f;
+  background: #374871;
   padding: 14px 15px;
-  padding: 20px 22px;
+  /* padding: 20px 22px; */
 }
 .enquiry-box h4 {
   font-weight: 600;
@@ -70,19 +70,19 @@ body {
   color: #d6d6d6;
   font-weight: 400;
   line-height: 9px;
-  margin-bottom: 6px;
+  /* margin-bottom: 6px; */
   height: 2px;
 }
 .enquiry-bottom hr {
   margin-top: 11px;
   margin-bottom: 0;
   border: 0;
-  border-top: 1px solid rgba(173, 0, 0, 0.43);
+  border-top: 1px solid white;
   width: 214px;
   margin-right: -14px;
 }
 .enquiry-bottom i.fa.fa-whatsapp {
-  padding: 4px 3px;
+  /* padding: 4px 3px; */
   line-height: normal;
   font-size: 22px;
   color: #ffc4c44f;

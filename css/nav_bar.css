@@ -1,10 +1,8 @@
-.fixed-top{
-    height: 35px;
+.fixed-top {
+  height: 35px;
 }
 .fixed-top-2 {
-    margin-top: 56px;
-    /* text-align: justify; */
-   
+  margin-top: 56px;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
@@ -14,7 +12,7 @@
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(255, 255, 255);
-} 
+}
 .custom-toggler1 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(55, 72, 113, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
   height: 15px;
@@ -23,43 +21,40 @@
 
 .custom-toggler1.navbar-toggler {
   border-color: rgb(255, 255, 255);
-} 
-header >.navbar{
- 
-    background-color: #194486 ;
-    float: right;
+}
+header > .navbar {
+  background-color: #194486;
+  float: right;
 }
 
 .sticky-top {
-    padding-top: 56px;
-    background-color: transparent;
-    color: black;
-    position: fixed;
-    width: 100%;
-    padding-bottom: 20px;
-    
+  padding-top: 56px;
+  background-color: transparent;
+  color: black;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 20px;
 }
-.snd_nav>li>a{
-    font-size: large;
-    text-transform: uppercase;
-    padding: 5px;
+.snd_nav > li > a {
+  font-size: large;
+  text-transform: uppercase;
+  padding: 5px;
 }
-.snd_nav>.nav-item>.link2:hover{
-    
-    text-transform: uppercase;
-    padding: 5px;
-    color: blueviolet;
-    text-decoration: underline;
+.snd_nav > .nav-item > .link2:hover {
+  text-transform: uppercase;
+  padding: 5px;
+  color: blueviolet;
+  text-decoration: underline;
 }
 .spn_apply {
-    color: #fff;
-    background: #000;
-    padding: 8px 18px;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-    z-index: 1;
-    font-size: 18px;
-    font-weight: 900;
-    letter-spacing: 2px;
+  color: #fff;
+  background: #000;
+  padding: 8px 18px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
